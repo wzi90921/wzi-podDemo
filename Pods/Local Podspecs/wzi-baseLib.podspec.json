@@ -1,0 +1,50 @@
+{
+  "name": "wzi-baseLib",
+  "version": "0.0.1",
+  "summary": "wzi-baseLib is a base lib",
+  "homepage": "https://github.com/wzi90921",
+  "license": "MIT",
+  "authors": {
+    "weizixiong": "wzi90921@sina.com"
+  },
+  "source": {
+    "git": "../wzi-baseLib"
+  },
+  "prefix_header_file": "Classes/Prefix.h",
+  "source_files": "Classes/**/*.{h,m}",
+  "requires_arc": true,
+  "resource_bundles": {
+    "res_bundle": [
+      "Assets/**/*.png"
+    ]
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "ios": {
+    "frameworks": "UIKit"
+  },
+  "dependencies": {
+    "YTKNetwork": [
+
+    ],
+    "MJExtension": [
+
+    ],
+    "MBProgressHUD": [
+
+    ],
+    "SDWebImage": [
+
+    ],
+    "MJRefresh": [
+
+    ],
+    "YTKKeyValueStore": [
+
+    ],
+    "WZLSerializeKit": [
+
+    ]
+  }
+}
