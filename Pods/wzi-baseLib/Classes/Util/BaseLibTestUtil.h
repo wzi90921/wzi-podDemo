@@ -1,0 +1,13 @@
+//
+//  BaseLibTestUtil.h
+//  AFNetworking
+//
+//  Created by 魏梓雄 on 2018/3/28.
+//
+
+#import <Foundation/Foundation.h>
+
+@interface BaseLibTestUtil : NSObject
+
+-(void)testImage;
+@end

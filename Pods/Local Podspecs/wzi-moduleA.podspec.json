@@ -8,7 +8,8 @@
     "weizixiong": "wzi90921@sina.com"
   },
   "source": {
-    "git": "../wzi-moduleA"
+    "git": "https://github.com/wzi90921/wzi-moduleA.git",
+    "branch": "master"
   },
   "prefix_header_file": "Classes/Prefix.h",
   "source_files": "Classes/**/*.{h,m}",
@@ -22,5 +23,10 @@
   },
   "ios": {
     "frameworks": "UIKit"
+  },
+  "dependencies": {
+    "wzi-baseLib": [
+
+    ]
   }
 }

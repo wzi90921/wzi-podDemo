@@ -8,7 +8,8 @@
     "weizixiong": "wzi90921@sina.com"
   },
   "source": {
-    "git": "../wzi-baseLib"
+    "git": "https://github.com/wzi90921/wzi-baseLib.git",
+    "branch": "master"
   },
   "prefix_header_file": "Classes/Prefix.h",
   "source_files": "Classes/**/*.{h,m}",
